@@ -19,7 +19,7 @@
   {
     "Name": "Interhaptics",
     "Type": "Runtime",
-    "LoadingPhase": "Default",
+    "LoadingPhase": "PreDefault",
     "WhitelistPlatforms": [ "Win64", "Switch", "PS5" ]
   },
   {
@@ -37,7 +37,7 @@
   {
     "Name": "HapticEffect",
     "Type": "Runtime",
-    "LoadingPhase": "Default",
+    "LoadingPhase": "PreDefault",
     "WhitelistPlatforms": [ "Win64", "Switch", "PS5" ]
   },
   {

@@ -22,7 +22,7 @@ void FIHRazerSensaModule::StartupModule()
 	FString BaseDir = IPluginManager::Get().FindPlugin("Interhaptics")->GetBaseDir();
 
 	FString LibraryPath = FPaths::Combine(*BaseDir, TEXT("Source/ProviderRazerSensa/Lib/Interhaptics.RazerSensaProvider.dll"));
-	InterhapticsEngine::HapticDeviceManager::AddProvider(FPlatformProcess::GetDllHandle(*LibraryPath));
+	// InterhapticsEngine::HapticDeviceManager::AddProvider(FPlatformProcess::GetDllHandle(*LibraryPath));
   UE_LOG(LogTemp, Warning, TEXT("Razer Sensa Provider Loaded."));
 #endif
 
